@@ -1,0 +1,74 @@
+nav{
+    margin-left: -2.5em;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+ul li{
+    margin: 0.5em 3em;
+
+}
+
+.logo{
+    width: 100%;
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+    margin: 1em;
+}
+
+h2{
+    margin-left: 0.25em;
+}
+
+@media (min-width: 800px) {
+    ul{
+        justify-content: space-around;
+    }
+
+    h2{
+        margin: auto;
+    }
+
+    ul li{
+        margin:auto;
+    }
+
+    .logo{
+        order: 3;
+        width: auto;
+        text-align: left;
+    }
+
+    .ui{
+        order: 2;
+    }
+
+    .typography{
+        order: 1;
+    }
+
+    .branding{
+        order: 3;
+    }
+
+    .graffiti{
+        order: 4;
+    }
+
+}
