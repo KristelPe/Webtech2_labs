@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS-blocks</title>
+    <style>
+        body{
+            padding: 1em;
+        }
+        .btn{
+            font-family: Helvetica;
+            text-decoration: none;
+            background-color: lightgray;
+            padding: 0.7em;
+            border-radius: 5px;
+            margin: 0.5em;
+            color: LIGHTCORAL;
+            font-weight: bold;
+            text-transformer: uppercase;
+            text-shadow: 1px 0.8px darkorange;
+        }
+
+        .btn__price{
+            background-color: black;
+            color: white;
+            padding: 0.2em;
+            opacity: 0.25;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .btn--promo{
+            background-color: tomato;
+            color: white;
+        }
+
+        .btn--xl{
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <a class="btn" href="#">Buy Now</a>
+    <a class="btn btn--promo" href="#">
+        <span class="btn__price">€5</span>
+        <spanclass="btn__text">Buy Now</span>
+    </a>
+    <a class="btn btn--xl" href="#">
+        <span class="btn__price">€5</span>
+        <spanclass="btn__text">Buy Now</span>
+    </a>
+</body>
+</html>

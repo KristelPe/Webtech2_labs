@@ -1,0 +1,33 @@
+body {
+  font-family: Helvetica;
+  padding: 1em; }
+
+.btn {
+  text-decoration: none;
+  background-color: #D3D3D3;
+  padding: 0.7em;
+  border-radius: 5px;
+  margin: 0.5em;
+  color: #F08080;
+  font-weight: bold;
+  text-transformer: uppercase;
+  text-shadow: 1px 0.8px #FF8C00; }
+
+.btn__price {
+  background-color: black;
+  color: white;
+  padding: 0.2em;
+  opacity: 0.25;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.btn--promo {
+  background-color: #FF6347;
+  color: white; }
+
+.btn--xl {
+  font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */

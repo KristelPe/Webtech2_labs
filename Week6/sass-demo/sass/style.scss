@@ -1,0 +1,38 @@
+@import '_colors';
+@import "components/_buttons";
+
+body{
+  font-family: Helvetica;
+  padding: 1em;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: $lightgray;
+  padding: 0.7em;
+  border-radius: 5px;
+  margin: 0.5em;
+  color: $lightcoral;
+  font-weight: bold;
+  text-transformer: uppercase;
+  text-shadow: 1px 0.8px $darkorange;
+}
+
+.btn__price{
+  background-color: $black;
+  color: $white;
+  padding: 0.2em;
+  opacity: 0.25;
+  @include border-radius(5px);
+}
+
+.btn--promo{
+  background-color: $tomato;
+  color: $white;
+}
+
+.btn--xl{
+  font-size: 1.5em;
+}
+
+//http://sass-lang.com/guide
