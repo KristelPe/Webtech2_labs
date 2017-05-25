@@ -56,7 +56,7 @@ class Weather
         }).done(function(response){
             console.log(response);
             that.weather = response.currently;
-            that.daily = response.daily
+            that.daily = response.daily;
             that.updateUI();
         });
     }
@@ -138,6 +138,6 @@ class Weather
 }
 
 const options = {
-    apiKey: "c58945c4d5c01e4ff07396403dd0f9bc"
-}
+    apiKey: "e38338b23acdc3543becf6c5b7f1afd4"
+};
 const App = new Weather(options);
